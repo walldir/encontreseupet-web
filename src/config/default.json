@@ -1,3 +1,4 @@
 {
-    "baseURL": "https://localhost:44389/api/"
+    "baseURLHOST": "https://localhost:44389/api/",
+    "baseURL": "http://adoteseupet-001-site1.dtempurl.com/api/"
 }

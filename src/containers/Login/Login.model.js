@@ -19,7 +19,7 @@ export default {
     opened: false,
     session: getSession() ? getSession() : {},
     loginForm: defaultLoginForm,
-    logged: localStorage.getItem('session') === "{}" ? false : true,
+    logged: localStorage.getItem('session') === "{}" || localStorage.getItem('session') === null ? false : true,
   }),
   /**
    * Reducers
