@@ -33,12 +33,12 @@ function Footer() {
                 </a>
               </Link>
               </div>
-              <div>
+              {/* <div>
                 <a rel="noopener" href="#">Service</a>
               </div>
               <div>
                 <a rel="noopener" href="#">Case Study</a>
-              </div>
+              </div> */}
             </div>
           </Col>
           <Col lg={8} sm={24} xs={24}>
