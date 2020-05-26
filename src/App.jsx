@@ -9,6 +9,7 @@ import {
 import Home from './containers/Home/Home';
 import PetsList from './containers/Pets/List/PetsList';
 import PetsDetails from './containers/Pets/Details/PetDetails';
+import ScrollToTop from 'react-router-scroll-top';
 
 // Global modals
 import Register from './containers/Register/Register';
@@ -27,6 +28,7 @@ export function Application() {
       </Switch>
       <Login />
       <Register />
+      <ScrollToTop />
     </Router>
   );
 }
