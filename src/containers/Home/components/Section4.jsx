@@ -13,8 +13,8 @@ export default function Page4(props) {
         {!props.isMobile && <img src={`${assets}/image/home/comments-leftpad-abd23.svg`} alt="" />}
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec libero lobortis, hendrerit tortor ut, elementum elit. Vivamus pellentesque diam ut pharetra facilisis.</span>
       </div>
-      <h4>Hiléo Andersson</h4>
-      <p>Software Enginner</p>
+      <h4>Lorem</h4>
+      <p>Loren ipsum</p>
     </QueueAnim>
   ));
   return (
