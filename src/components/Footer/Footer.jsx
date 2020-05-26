@@ -10,9 +10,9 @@ function Footer() {
         <Row>
           <Col lg={8} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>About Us</h2>
+              <h2>Sobre Nós</h2>
               <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec libero lobortis, hendrerit tortor ut, elementum elit. Vivamus pellentesque diam ut pharetra facilisis. Nunc nec dignissim arcu. Nulla dapibus, urna bibendum commodo pharetra, quam lacus convallis ante, nec aliquam sem nulla non est.
+                Encontre Seu Pet é uma ferramenta online, com o intuito de facilitar a adoção de animais, além de ajudar ONGs disponibilizando um espaço para que elas possam criar campanhas e cadastrar seus pets disponíveis para adoção.
               </div>
             </div>
           </Col>
@@ -20,10 +20,18 @@ function Footer() {
             <div className="footer-center">
               <h2>Useful Links</h2>
               <div>
-                <a rel="noopener" href="#">Home</a>
+              <Link to="/" href="#" key="a">
+                <a rel="noopener" href="#">
+                  Início
+                </a>
+              </Link>
               </div>
               <div>
-                <a href="#">About</a>
+              <Link to="pets" href="#" key="a">
+                <a rel="noopener" href="#">
+                  PETS
+                </a>
+              </Link>
               </div>
               <div>
                 <a rel="noopener" href="#">Service</a>
@@ -37,13 +45,13 @@ function Footer() {
             <div className="footer-center">
               <h2>Contact Us</h2>
               <div>
-                <a href="#">contact@encontreseupet.com</a>
+                <a href="#">suporte@encontreseupet.com</a>
               </div>
-              <div>
+              {/* <div>
                 <a target="_blank" rel="noopener" href="#">(85) 9.9999-9999</a>
-              </div>
+              </div> */}
               <div>
-                <a target="_blank" rel="noopener" href="#">Av. Rui Barbosa, Fortaleza - CE</a>
+                <a target="_blank" rel="noopener" href="#">Fortaleza - CE</a>
               </div>
             </div>
           </Col>
@@ -52,7 +60,7 @@ function Footer() {
       <Row className="bottom-bar">
         <Col lg={6} sm={24} />
         <Col lg={18} sm={24}>
-          <span style={{ marginRight: 12 }}>Copyright &copy; All rights reserved</span>
+          <span style={{ marginRight: 12 }}>Copyright 2020 &copy; Todos os direitos reservados</span>
         </Col>
       </Row>
     </footer>
